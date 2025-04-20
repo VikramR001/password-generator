@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0c0126;
+    margin: 0;
+    background-image: url('password.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.container {
+    background-color:beige;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(47, 4, 219, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #090809;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #030108;
+    font-weight: bold;
+}
+
+input[type="number"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #573ee4;
+    color: rgb(9, 9, 13);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #521eca;
+}
+
+#password-display {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    border-color: #0b0220;
+    font-size: 1.2em;
+    word-break: break-all;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
